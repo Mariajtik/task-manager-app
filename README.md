@@ -1,46 +1,57 @@
-# 🗂 Task Manager <div align="center"> 
+<!--
+  ===========================================
+  📋 Task Manager — by @mariajtik
+  A minimal and elegant React task app
+  ===========================================
+-->
 
-A beautiful, minimal task management app built with React
+<div align="center">
 
-🚀 [Live Demo](https://mariajtik.github.io/task-manager-app/) • 📖 Documentation
+# 📋 Task Manager  
+*A beautiful, minimal task management app built with React*
 
-# </div> 🎯 Features <table> <tr> <td width="50%"> ✅ Core Functions Add new tasks instantly Mark tasks as complete Delete tasks with one click Task counter (total & completed) </td> <td width="50%"> 🎨 Design Modern gradient UI Smooth animations Fully responsive Clean & intuitive </td> </tr> </table> 🚀 Quick Start Deploy Your Own in 3 Steps # 1. Clone this repo git clone https://github.com/mariajtik/task-manager-app.git # 2. Push to your GitHub cd task-manager-app git remote set-url origin https://github.com/YOUR-USERNAME/YOUR-REPO.git git push # 3. Enable GitHub Pages Go to Settings → Pages → Source: main branch → Save 
+[![React](https://img.shields.io/badge/React-18.2.0-61DAFB?logo=react)](https://react.dev/)
+[![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.x-38B2AC?logo=tailwindcss)](https://tailwindcss.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![GitHub Pages](https://img.shields.io/badge/Hosted%20on-GitHub%20Pages-181717?logo=github)](https://mariajtik.github.io/task-manager-app/)
+[![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-blueviolet.svg)](https://github.com/mariajtik/task-manager-app/issues)
 
-That's it! Your app will be live at: https://YOUR-USERNAME.github.io/YOUR-REPO
+---
 
-💻 Tech Stack <div align="center"> Technology Purpose React 18 UI Framework Tailwind CSS Styling GitHub Pages Free Hosting Babel Standalone JSX Compilation </div> 📁 Project Structure task-manager-app/ │ ├── index.html # Single-page app (all-in-one) └── README.md # You are here! 
+🎯 **Live Demo:** [https://mariajtik.github.io/task-manager-app/](https://mariajtik.github.io/task-manager-app/)  
+🐞 **Report Bug:** [Open Issue](https://github.com/mariajtik/task-manager-app/issues)  
+💡 **Request Feature:** [Submit Idea](https://github.com/mariajtik/task-manager-app/issues)
 
-Yes, it's just one file! Perfect for learning and quick deployments.
+</div>
 
-# 🎨 Customization 
+---
 
-Want to make it yours? Edit these in index.html:
+## 🪄 Overview
 
-// Change colors (line ~60) className="bg-gradient-to-br from-purple-500 via-pink-500 to-red-500" // ↑ Change these colors // Change title (line ~70) <h1>Your App Name</h1> // Change placeholder (line ~75) placeholder="Your custom text..." 📸 Screenshots <div align="center"> Desktop View 
+**Task Manager** is a minimalist, responsive React app for managing your daily tasks.  
+Fully front-end — no backend, no build tools, just simplicity and speed.  
+Perfect for learning React basics and quick GitHub Pages deployment.
 
-Mobile View <img src="https://via.placeholder.com/300x500/EC4899/FFFFFF?text=Mobile+View" width="250" /> </div> 🔧 Browser Support Browser Support Chrome ✅ Latest Firefox ✅ Latest Safari ✅ Latest Edge ✅ Latest 📝 How It Works graph LR A[User Types Task] --> B[Press Enter/Click Add] B --> C[Task Added to State] C --> D[UI Updates] D --> E[Task Displayed] E --> F{User Action} F -->|Complete| G[Toggle Checkmark] F -->|Delete| H[Remove Task] G --> C H --> C 🌟 Why This App? <div align="center"> Feature Benefit 🆓 100% Free No server costs, forever ⚡ Lightning Fast Pure frontend, instant load 📱 Mobile Ready Works on any device 🎓 Great for Learning Clean code, easy to understand 🚀 Deploy in Minutes GitHub Pages integration </div> 🤝 Contributing 
+---
 
-# Contributions are welcome! Feel free to:
+## ✨ Features
 
-🍴 Fork this repo 🔨 Make your changes 📬 Submit a pull request 📄 License 
+✅ **Add tasks** – Instantly create new tasks  
+🎯 **Mark complete** – Check off finished tasks  
+🗑️ **Delete tasks** – Remove tasks with one click  
+📊 **Task counter** – Track total and completed tasks  
+🎨 **Beautiful UI** – Modern gradient design  
+📱 **Responsive** – Works seamlessly on any device  
+⚡ **Fast** – Lightweight and no backend needed  
 
-MIT License - feel free to use this project however you want!
+---
 
-# 🙋 FAQ 
+## 🚀 Quick Start
 
-**Q: Does it save tasks permanently?**
-A: No, tasks are stored in memory only. Refresh = reset. Want persistence? Check out the localStorage branch!
+### Option 1 — Use This Template
 
-**Q: Can I use my own domain?**
-A: Yes! Configure a custom domain in GitHub Pages settings.
-
-**Q: Why one HTML file?**
-A: Simplicity! Perfect for beginners and quick deploys. For larger projects, use Create React App.
-
-<div align="center"> 💜 Made with React + GitHub Pages 
-
-⭐ Star this repo if you found it helpful!
-
-Report Bug • Request Feature
-
-</div> <div align="center"> <sub>Built with ❤️ by <a href="https://github.com/mariajtik">@mariajtik</a></sub> </div>
+1. Click **“Use this template”** on the repository page  
+2. Name your new repository  
+3. Go to **Settings → Pages**  
+4. Set **Source** to the **main branch**  
+5. Visit:
