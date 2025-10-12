@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: linear-gradient(to bottom right, #9333ea, #ec4899, #ef4444);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+}
+
+.app {
+  background: white;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+  text-align: center;
+  font-size: 2rem;
+  background: linear-gradient(to right, #9333ea, #ec4899);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.subtitle {
+  text-align: center;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.input-area {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input-area input {
+  flex: 1;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+}
+
+.input-area button {
+  background: linear-gradient(to right, #9333ea, #ec4899);
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.input-area button:hover {
+  opacity: 0.9;
+}
+
+.task-list .task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+  margin-bottom: 10px;
+  background: #f9fafb;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.task.completed span {
+  text-decoration: line-through;
+  color: #aaa;
+}
+
+.task:hover {
+  background: #f3f4f6;
+}
+
+.task button {
+  background: none;
+  border: none;
+  color: red;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  color: #555;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  margin-top: 10px;
+  font-size: 0.9rem;
+  }
