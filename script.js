@@ -13,7 +13,7 @@ function renderTasks() {
     empty.style.textAlign = 'center';
     empty.style.color = '#999';
     empty.innerHTML = `
-      <p>NEmpty, you would make me happy filling it up with a lot of tasks!</p>
+      <p>Empty, you would make me happy filling it up with a lot of tasks!</p>
       <small> To start, add tasks, if you want, of course...</small>
     `;
     taskList.appendChild(empty);
@@ -38,7 +38,7 @@ function renderTasks() {
 function updateStats() {
   const total = tasks.length;
   const done = tasks.filter((t) => t.completed).length;
-  taskStats.innerHTML = `<span>Total: ${total} task(s)</span><span>Concluídas: ${done}</span>`;
+  taskStats.innerHTML = `<span>Total: ${total} task(s)</span><span>Done: ${done}</span>`;
 }
 
 function addTask() {
